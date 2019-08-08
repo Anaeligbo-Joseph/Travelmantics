@@ -32,13 +32,10 @@ public class TravelListActivity extends AppCompatActivity {
     private DatabaseReference databaseReference;
     private ChildEventListener childEventListener;
 
-
-
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_list);
-        //
 
     }
 
@@ -72,7 +69,6 @@ public class TravelListActivity extends AppCompatActivity {
             insertMenu.setVisible(false);
         }
         return true;
-
     }
 
     @Override
